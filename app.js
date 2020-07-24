@@ -1507,5 +1507,75 @@ function changeFontSize(target) {
 
 //Chapter 57-67:-
 
+//Task no 1:-
+
+//Ques no 1:
+
 var a = document.getElementById('main-content');
+
+//Ques no 2:
+
+console.log(a.childNodes)
+//
+Ques no 4:
+
+var a = document.getElementById('first-name')
+var text = document.createTextNode("Alex")
+a.appendChild(text)
 console.log(a)
+
+//Ques no 5:
+
+var g = document.getElementById('last-name')
+var text = document.createTextNode("Bank")
+g.appendChild(text)
+console.log(g)
+
+var h = document.getElementById('email')
+var text = document.createTextNode("alexbank@example.com")
+h.appendChild(text)
+console.log(h)
+
+
+//Task no 2:
+
+
+//Ques no 1:
+
+var a = document.getElementById('form-content')
+console.log(a.nodeType);
+
+//Ques no 2:
+
+var b = document.getElementById('lastName')
+console.log(b.nodeType);
+console.log(b.childNodes[0].nodeValue)
+//Ques no 3: var target = document.getElementById('lastName')
+target.setAttribute('lastName',"glader")
+console.log(target)
+
+var j = document.getElementById('lastName')
+
+var text = document.createTextNode("glader")
+target.appendChild(text)
+console.log(target)
+
+//Ques no 4:
+
+var m = document.getElementById('main-content')
+console.log(m.childNodes[1])
+
+var m = document.getElementById('main-content')
+console.log(m.childNodes[8])
+
+//Ques no 5:
+
+var f = document.getElementById('lastName')
+console.log(f.nextSibling)
+console.log(f.previousSibling)
+
+//Ques no 6:
+
+var x = document.getElementById('email')
+console.log(x.parentNode)
+console.log(x.nodeType)
